@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(back2.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.navbar-brand {
+    display: flex;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navimg {
+    padding-right: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    border-radius: 20px;
+    background-color: orange;
+    color: black;
+}
+
+#order a {
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+
+#order a:hover {
+    border-radius: 20px;
+}
+
+.slide {
+    color: white;
+    text-shadow: 0 0 20px black;
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+#welcome {
+    font-size: 3rem;
+    color: rgb(255, 128, 0);
+}
+
+#slogan {
+    font-size: 2.2rem;
+    color: rgb(255, 196, 0);
+}
+
+.detail {
+    font-size: 1.5rem;
+    color: rgb(225, 255, 0);
+}
+
+.btn{
+    background-color: orange;
+    font-size: 20px;
+    color:black;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 200, 0);
+}
+
+.card {
+    width: 300px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card .description {
+    margin-top: 5px;
+}
+
+.card .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card:hover{
+    background-color: orange;
+    color:black;
+}
+
+#description{
+    color:orange;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#description h1{
+    font-size: 2.5rem;
+}
+
+.desc{
+    width: 50rem;
+}
+
+#description p{
+    font-size: 1.5rem;
+}
+
+#card{
+    color:orange;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#footer{
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icon{
+    background-color: orange;
+    margin: 15px;
+    padding: 0.75rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon:hover{
+    background-color: rgb(255, 183, 0);
+}
+
+#end{
+    font-size: 1.25rem;
+    color: orange;
+}
